@@ -1,0 +1,14 @@
+( ) : 초기 설정
+
+1. 폴더로 이동
+(2. init git)
+3. 파일 로컬 저장소에 추가:
+	git add -A : 전부 추가
+	git add 파일 : 이 파일만 추가
+	git reset : 로컬 저장소 커밋 취소
+4. git commit -m "커밋메시지"
+(5. git remote add origin 깃허브저장소주소 )
+6. git push origin master
+7. 사용자 이름, 비밀번호/토큰 입력
+8. 새로 쓰기 전에는 pull 새로 한 번 하기
+ 
