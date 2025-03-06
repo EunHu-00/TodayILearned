@@ -8,7 +8,7 @@
 	git reset : 로컬 저장소 커밋 취소
 4. git commit -m "커밋메시지"
 (5. git remote add origin 깃허브저장소주소 )
-6. git push origin master
+6. git push origin main
 7. 사용자 이름, 비밀번호/토큰 입력
 8. 새로 쓰기 전에는 pull 새로 한 번 하기
  
