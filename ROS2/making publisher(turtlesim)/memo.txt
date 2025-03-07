@@ -1,0 +1,12 @@
+출처: https://youtu.be/Yy4OgGwEAj8?si=m8IbcIesPIA5raO_
+
+토픽: 노드 사이 커뮤니케이션이 가능하게 함
+노드: 서로 커뮤니케이션 할 수 없으며, publish, subscribe만 가능함. 여러개의 토픽에 publish가능, 여러개의 노드가 토픽에 subscribe가능. 노드는 토픽에서 받은 메시지만 확인 가능하지, 어떤 노드에서 이 메시지를 보내왔는지는 모름.
+
+Turtlesim 오른쪽 x 위쪽 y, z는 회전
+ros2 topic list: 실행중인 토픽의 갯수를 알려줌
+ros2 topic info <topic name>: 토픽의 형식, publisher/subscriber 갯수를 알려줌
+ros2 interface show <topic type>: 받는 메시지의 형식을 알려줌
+
+--symlink-install은 수정사항을 반영하지만 빌드를 새로하진 않음.(업데이트 버전을 올리지 않는다.)
+새 파일을 생성하거나, 새 excute table 을 만든다면(setup.py) 필요함. 이미 생성된 실행 가능한 것에만 반응함

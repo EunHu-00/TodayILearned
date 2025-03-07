@@ -1,0 +1,13 @@
+출처: https://choiiis.github.io/git/how-to-remote-project/
+
+연결된 원격 저장소 확인
+git remote -v
+결과:
+이름	링크(fetch)
+이름	링크(push)
+
+삭제
+git remote remove 이름
+
+이름 변경
+git remote rename 원래이름 바꿀이름
