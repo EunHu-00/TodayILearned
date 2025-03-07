@@ -1,0 +1,10 @@
+공백 없는 문자열 분해하는 법
+text = sys.stdin.readline().strip()
+char = list(text)
+
+strip은 문자열 끝 개행문자를 제거해준다.
+
+char[i]의 존재여부에 따라 while문 실행하는 법
+i < len(char) 을 조건으로 넣기
+
+스택은 구현 잘 하고 있는 것 같아서 좋다~

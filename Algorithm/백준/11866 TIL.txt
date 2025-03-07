@@ -1,0 +1,16 @@
+from collections import deque
+
+N, K = map(int, input().split())
+que=deque(range(1, N+1))
+
+result = []
+
+while que:
+    que.rotate(-(K-1))
+    result.append(que.popleft())
+
+print("<" + ", ".join(map(str, result)) + ">")
+
+deque로 range 넣으면 바로 되는 거 알았고
+rotate 쓰면 시작 부분이 달라진다는 거 알았고
+print할 때 .join 쓰면 배열 사이 원하는 거 넣어서 프린트 해준다는 거 알았음...
